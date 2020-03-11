@@ -3,11 +3,16 @@
     padding: 0;
 }
 
-#nome_Aluno {
+/* estilos tela de LOGIN */
+body {
+    background-color: #2b78e4
+}
+
+#nomeAluno {
     width: 300px;
 }
 
-#senha_Aluno {
+#senhaAluno {
     width: 300px;
 }
 
@@ -19,15 +24,12 @@
     width: 400px;
 }
 
-#logo {    
+#logo {
     margin: 30px 0px 0px 30px;
+    width: 300px;
 }
 
-body {
-    background-color: #2b78e4
-}
-
-form {
+#areaLogin {
     /* colocar a tela no meio */
     margin: 0 auto;
     width: 400px;
@@ -38,30 +40,24 @@ form {
     margin-top: 130px;
 }
 
-form div+div {
+#areaLogin div+div {
     margin-top: 15px;
 }
 
-label {
-    text-align: right;
+.inputsLogin {
     display: inline-block;
     width: 80px;
 }
 
-textarea {
-    font: 12px sans-serif;
-    width: 300px;
-    border: 1px solid teal;
-    box-sizing: border-box;
-    border-radius: 3px;
-    vertical-align: top;
-    height: 100px;
-}
-
-h3 {
+#areaLogin h3 {
     text-align: center;
 }
 
 button {
     border: 0px;
+}
+/* FIM estilos tela de LOGIN */
+
+#botao{
+    text-align: center;
 }
