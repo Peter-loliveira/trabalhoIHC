@@ -14,18 +14,19 @@
         <div id="formLogin" form action="login.php" method="GET" name="titulo">
         </div>
         <h3>Portal do Aluno SESI</h3>
-        <div name="aluno">
-            <label> </label>
-            <input type="text" id="nomeAluno" placeholder=" Aluno" class="inputsLogin">
+        <div name="aluno">            
+            <input class="inputs" type="text" id="nomeAluno" placeholder=" Aluno" class="inputsLogin">
         </div>
-        <div name="senha">
-            <label> </label>
-            <input type="text" id="senhaAluno" placeholder=" Senha">
-            <label><input type="checkbox" id="lembrarID" name="Lembrar"> Lembrar</label>
+        <div>            
+            <input class="inputs" type="password" id="senhaAluno" placeholder=" Senha">
+            <div id="senha">
+                <label><input type="checkbox" id="lembrarID" name="Lembrar">Lembrar</label>
+                <a id="linkEsqueciSenha" href="#">Esqueci minha senha!</a>                
+            </div>
         </div>
 
         <div id="botao">            
-                <button class="btn btn-primary" >Entrar</button>            
+                <button class="botao" >Entrar</button>            
         </div>
     </form>
     </div>    

@@ -8,12 +8,12 @@ body {
 }
 
 #areaGeral, #areaSuperior{
-    width: 90%;
+    width: 90%;    
 }
 
 #areaSuperior {
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -39,9 +39,9 @@ body {
 #areaGeral {
     justify-content: space-between;
     display: flex;    
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 5px;
 }
 

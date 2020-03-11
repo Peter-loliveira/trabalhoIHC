@@ -8,6 +8,12 @@ body {
     background-color: #2b78e4
 }
 
+.inputs{
+    border: 1px solid #313131;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
 #nomeAluno {
     width: 300px;
 }
@@ -60,4 +66,28 @@ button {
 
 #botao{
     text-align: center;
+}
+
+.botao{
+    background-color: #bbbbbb;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.botao:hover{
+    background-color: #fb5353;
+}
+
+#senha{
+    display: flex;
+    justify-content: space-between;
+}
+
+#linkEsqueciSenha{
+    text-decoration: underline;
+    color: gray;
+}
+
+h3{
+    margin-bottom: 20px;
 }
