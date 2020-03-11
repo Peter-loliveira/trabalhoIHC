@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b78e4
+}
+
+#areaGeral,
+#areaSuperior {
+    width: 90%;
+}
+
+#areaSuperior {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 400px;
+}
+
+#botaoSair {
+    margin: 20px;
+    width: 60px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#botaoSair:hover {
+    background-color: #ff3a3a;
+    color: wheat;
+}
+
+#areaGeral {
+    justify-content: space-between;
+    display: flex;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+#areaComponentes,
+#ul {
+    border: 1px solid #000000;
+}
+
+#areaMenu {
+    width: 20%;
+    /* background-color: aquamarine; */
+    height: 300px;
+    margin-top: 60px;
+    border-right: 100px;
+}
+
+.itensMenu {
+    background-color: #D8D7D7;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: table;
+    border: 1px solid black;
+    width: 100%;
+    color: black;
+}
+
+.itensMenu:hover {
+    background-color: #eeeaea;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.textosNegrito {
+    font-weight: bold;
+}
+
+#areaComponentes {
+    width: 80%;
+    background-color: white;
+    text-align: center;
+}
+
+#quadrado {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+/* victor  */
+
+#avaliação {
+    color: aliceblue
+}
