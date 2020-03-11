@@ -1,16 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nome_Aluno {
+    width: 300px;
+}
+
+#senha_Aluno {
+    width: 300px;
+}
+
+#lembrarId {
+    width: 250px;
+}
+
+#lembrar {
+    width: 400px;
+}
+
+#logo {    
+    margin: 30px 0px 0px 30px;
+}
+
 body {
-    background-color: rgb(4, 99, 214)
+    background-color: #2b78e4
 }
 
 form {
     /* colocar a tela no meio */
-    margin:  0px auto;
+    margin: 0 auto;
     width: 400px;
     border: 1px solid #ccc;
     border-radius: 10px 10px;
     padding: 50px;
-    background-color: rgb(136, 141, 156);
-    margin-top: 200px;
+    background-color: #fff;
+    margin-top: 130px;
 }
 
 form div+div {
@@ -23,19 +48,6 @@ label {
     width: 80px;
 }
 
-#nome_Aluno {
-    width: 300px;
-}
-#senha_Aluno {
-    width: 300px;
-}
-
-#lembrarId{
-    width: 250px;
-}
-#lembrar{
-    width: 400px;
-} 
 textarea {
     font: 12px sans-serif;
     width: 300px;
@@ -44,14 +56,12 @@ textarea {
     border-radius: 3px;
     vertical-align: top;
     height: 100px;
-
 }
 
 h3 {
     text-align: center;
-
 }
 
-button {    
-    border: 0px;    
+button {
+    border: 0px;
 }
