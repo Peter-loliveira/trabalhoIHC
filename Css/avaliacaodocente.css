@@ -120,3 +120,21 @@ ul {
 #instrucao {
     margin-bottom: 50px;
 }
+
+#quadrado {
+    width: 100%;
+}
+
+#tabela {
+    width: 100%;
+    border: black 1px solid;
+    margin-top: 100px;
+}
+
+td {
+    border: black 1px solid;
+}
+
+.btn-tamanho {
+    width: 80px;
+}
