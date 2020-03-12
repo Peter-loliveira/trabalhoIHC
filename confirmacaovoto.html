@@ -10,47 +10,51 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="Css/_MODELO.css">
+  <link rel="stylesheet" href="Css/confirmacaovoto.css">
 </head>
 
 <body>
-  <header id=areaSuperior>
-    <!-- <img class="logo" src="img/sesiDobro.png">
-    <img class="logo" src="img/logo.png"> -->
-    <img class="logo" src="img/logoG.png">
-    <a href="index.html">      
-      <button id="botaoSair" class="btn btn-light">Sair</button>
-    </a>
-    
-  </header>
-  <section id="areaGeral">
-    <div id="areaMenu" class="campos">
-      <ul id="menu">
-        <a href="#">          
-          <li class="itensMenu">Início</li>
-        </a>
-        <a href="#">          
-          <li class="itensMenu">Notas</li>
-        </a>
-        <a href="#">          
-          <li class="itensMenu">Calendário</li>
-        </a>
-        <a href="#">          
-          <li class="itensMenu">Avaliação Docente</li>
-        </a>
-        <a href="#">          
-          <li class="itensMenu">Ajuda</li>
-        </a>
-        <a href="#">          
-          <li class="itensMenu">Configurações</li>
-        </a>
-      </ul>
-    </div>
-    <div id="areaComponentes" class="campos">
-      <div id="quadrado">
-        <h1>APAGUE ESSE H1 E COLOQUE TUDO AQUI</h1>
+  <section id="areaConfirmacao">
+    <h1>Avaliação Docente</h1>
+    <section id="dadosDocente">
+      <table class="table">
+        <tr>
+          <th>David Sodré</th>
+        </tr>
+        <tr>
+          <td>Programação Web</td>
+          <td>28 Anos</td>
+        </tr>
+        <tr>
+          <td>Interface Humano Computador</td>
+          <td>Desenvolvedor de Sistemas</td>
+        </tr>
+      </table>
+    </section>
+    <section id="votacao">
+      <h3>Abaixo selecione quantas estrelas este professor merece.</h3>
+      <div id="estrelasNaoMarcadas">
+        <img src="img/star.png" alt="">        
+        <img src="img/star.png" alt="">        
+        <img src="img/star.png" alt="">        
+        <img src="img/star.png" alt="">        
+        <img src="img/star.png" alt="">        
       </div>
-    </div>
+      <div id="estrelasMarcadas">
+        <img src="img/starfull.png" alt="">        
+        <img src="img/starfull.png" alt="">        
+        <img src="img/starfull.png" alt="">        
+        <img src="img/starfull.png" alt="">        
+        <img src="img/starfull.png" alt="">        
+      </div>
+    </section>
+    <section id="textoAvaliacao">
+      <textarea name="" id="" cols="30" rows="10">
+        Descreva sua avaliação!
+          
+          Comentarios perjorativos serão automaticamente excluidos.
+      </textarea>
+    </section>
   </section>
 
   <!-- Optional JavaScript -->
