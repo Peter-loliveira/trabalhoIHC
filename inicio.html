@@ -1,78 +1,89 @@
 <!doctype html>
 <html lang="en">
-
+ 
 <head>
   <title>Home</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+ 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/inicio.css">
+  <link rel="stylesheet" href="Css/inicio.css">
 </head>
-
+ 
 <body>
   <header id=areaSuperior>
-    <img id="logo" src="img/logo.png">
-    <button id="botaoSair" class="">Sair</button>
+    <!-- <img class="logo" src="img/sesiDobro.png">
+    <img class="logo" src="img/logo.png"> -->
+    <img class="logo" src="img/logoG.png">
+    <a href="index.html">
+      <button id="botaoSair" class="btn btn-light">Sair</button>
+    </a>
+ 
   </header>
   <section id="areaGeral">
     <div id="areaMenu" class="campos">
       <ul id="menu">
-        <a href="#">          
-          <li class="itensMenu">Início</li>
+        <a href="#">
+          <li  id="inicioSelect" class="itensMenu">Início</li>
         </a>
-        <a href="#">          
-          <li class="itensMenu">Notas</li>
+        <a href="#">
+          <li  id="inicioUnselect" class="itensMenu">Notas</li>
         </a>
-        <a href="#">          
-          <li class="itensMenu">Calendário</li>
+        <a href="#">
+          <li  id="inicioUnselect" class="itensMenu">Calendário</li>
         </a>
-        <a href="#">          
-          <li class="itensMenu">Avaliação Docente</li>
+        <a href="#">
+          <li  id="inicioUnselect" class="itensMenu">Avaliação Docente</li>
         </a>
-        <a href="#">          
-          <li class="itensMenu">Ajuda</li>
+        <a href="#">
+          <li  id="inicioUnselect" class="itensMenu">Ajuda</li>
         </a>
-        <a href="#">          
-          <li class="itensMenu">Configurações</li>
+        <a href="#">
+          <li  id="inicioUnselect" class="itensMenu">Configurações</li>
         </a>
       </ul>
     </div>
     <div id="areaComponentes" class="campos">
       <div id="quadrado">
         <div>
-          <label class="camposTextos">Bem Vindo ao Portal do Aluno Sesi Lauro de Freitas</label>
+          <label id="campoBemVindo" for="camposTextos">Bem Vindo ao Portal do Aluno Sesi Lauro de Freitas</label>
         </div>
         <div>
-          <label class="camposTextos">Curso: Técnico em Desenvolvimento de Sistemas</label>
+          <label id="campoCurso" for="camposTextos">Curso: Tecnico em Desenvolvimento de Sistemas</label>
         </div>
         <div>
-          <label class="camposTextos">Matricula 0999.777.863</label>
+          <label id="campoMatricula" for="camposTextos">Matricula: 0999.777.863</label>
         </div>
         <div>
-          <p id="labelAlunoLogado" class="camposTextos">Usuário: Aluno Teste | Unidade: Sesi Lauro de Freitas/Ba</p>
+          <label id="campoUsuario" for="camposTextos">Usuario: Aluno Teste | Unidade: Sesi  Lauro de Freitas/Ba</label>
+        </div>
+        <div id="divQuadro">
+        <div>
+          <label id="campoQuadroDeAvisos" class="iniciobold" for="camposTextos">Quadro de Avisos:</label>
         </div>
         <div>
-          <h4 class="camposTextos textosNegrito">Quadro de avisos:</h4>
-          <label class="camposTextos textosNegrito">Prezado aluno, estamos em processo de avaliação dos docentes.
+          <label id="campoPrezado"  class="iniciobold" for="camposTextos">Prezado aluno,
           </label>
-          <label class="camposTextos textosNegrito"> Não deixe de avaliar o corpo docente de seu curso, sua opnião é muito importante
-            para o Sesi manter a
-            boa qualidade de ensino.
-          </label>
-          <label class="camposTextos textosNegrito">Obs: Você poderá avaliar e fazer comentarios de forma anonima marcando a opção
-            para enviar comentarios anominos.
-          </label>
-          <a style="margin-top: 50px; font-size: 15pt; font-weight: bolder; color: red;" href="">Clique Aqui e seja
-            redirecionado</a>
+        </div>
+        <div>
+          <label id="campoEstamos"  class="iniciobold" for="camposTextos">Estamos em processo de avaliação dos docentes.</label>
+        </div>
+        <div>
+          <label id="campoNaoDeixe"  class="iniciobold" for="camposTextos">Não deixe de avaliar o corpo docente de seu curso, sua opnião é muito importante para o SESI manter a boa qualidade de ensino.</label>
+        </div>
+        <div>
+          <label id="campoObs"  class="iniciobold" for="campoTextos">Obs: Você poderá avaliar e fazer comentarios de forma anonima marcando a opção para enviar comentarios anominos.</label>
+        </div>
+        <div id="divRedirecionar">
+          <a id="campoRedirecionar" href="#">Clique aqui e seja Redirecionado</a>
+        </div>
         </div>
       </div>
-    </div>
   </section>
-
+ 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -85,5 +96,6 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 </body>
-
+ 
 </html>
+

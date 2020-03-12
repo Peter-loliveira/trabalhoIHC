@@ -2,92 +2,165 @@
     margin: 0;
     padding: 0;
 }
-
-/* estilos tela de LOGIN */
+ 
 body {
     background-color: #2b78e4
 }
-
-.inputs{
-    border: 1px solid #313131;
-    margin-bottom: 10px;
-    border-radius: 5px;
+ 
+#areaGeral, #areaSuperior{
+    width: 90%;    
 }
-
-#nomeAluno {
-    width: 300px;
-}
-
-#senhaAluno {
-    width: 300px;
-}
-
-#lembrarId {
-    width: 250px;
-}
-
-#lembrar {
-    width: 400px;
-}
-
-#logo {
-    margin: 30px 0px 0px 30px;
-    width: 300px;
-}
-
-#areaLogin {
-    /* colocar a tela no meio */
+ 
+#areaSuperior {
     margin: 0 auto;
-    width: 400px;
-    border: 1px solid #ccc;
-    border-radius: 10px 10px;
-    padding: 50px;
-    background-color: #fff;
-    margin-top: 130px;
-}
-
-#areaLogin div+div {
-    margin-top: 15px;
-}
-
-.inputsLogin {
-    display: inline-block;
-    width: 80px;
-}
-
-#areaLogin h3 {
-    text-align: center;
-}
-
-button {
-    border: 0px;
-}
-/* FIM estilos tela de LOGIN */
-
-#botao{
-    text-align: center;
-}
-
-.botao{
-    background-color: #bbbbbb;
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-}
-.botao:hover{
-    background-color: #fb5353;
-}
-
-#senha{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
-
-#linkEsqueciSenha{
-    text-decoration: underline;
-    color: gray;
+ 
+.logo{
+    width: 400px;    
 }
-
-h3{
+ 
+#botaoSair {
+    margin: 20px;
+    width: 60px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#botaoSair:hover {
+    background-color: #ff3a3a;
+    color: wheat;
+}
+ 
+#areaGeral {
+    justify-content: space-between;
+    display: flex;    
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+ 
+#areaComponentes, #ul {
+    border: 1px solid #000000;
+}
+ 
+#areaMenu {
+    width: 20%;
+    /* background-color: aquamarine; */
+    height: 300px;
+    margin-top: 60px;
+    border-right: 100px;
+}
+ 
+.itensMenu {
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: table;
+    border: 1px solid black;
+    width: 100%;
+    color: black;
+}
+.itensMenu:hover {
+    background-color: #eeeaea;
+}
+ 
+a:hover {
+    text-decoration: none;
+}
+a{
+    margin: 0;
+}
+ 
+ul {
+    list-style: none;
+}
+ 
+.textosNegrito {
+    font-weight: bold;
+}
+ 
+#areaComponentes {
+    width: 80%;
+    background-color: white;
+    text-align: center;
+}
+ 
+#quadrado {
+    margin-top: 20px;
+    padding: 2px;
+}
+ 
+#campoBemVindo{
+    font-size: 17pt;
+}
+ 
+#campoCurso{
+    font-size: 17pt;
+    margin-top: 10px;
+}
+ 
+#campoMatricula{
+    font-size: 17pt;
+    margin-top: 10px;
+}
+ 
+#campoUsuario{
+    text-align: left;
+    font-size: 17pt;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 26px;
+}
+ 
+.iniciobold{
+    font-size: 17pt;
+    font-weight: bold;
+}
+ 
+#campoNaoDeixe{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ 
+#campoObs{
+    margin-top: 15px;
     margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+ 
+#campoRedirecionar{
+    color: red;
+    font-size: 18pt;
+    font-weight: bold;
+}
+ 
+#campoPrezado{
+    margin-top: 15px;
+    margin-bottom: 1px !important;
+}
+ 
+#campoEstamos{
+    margin-bottom: 1px !important;
+}
+
+#inicioSelect{
+    background-color: rgb(255, 255, 255);
+}
+
+ #inicioUnselect{
+    background-color: #D8D7D7;
+ }   
+
+ #divQuadro{
+    height: 372px;
+    border: 1px solid black;
+ }
