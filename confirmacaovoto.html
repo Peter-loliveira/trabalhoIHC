@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Home</title>
+  <title>Confirmação de Voto</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,46 +16,53 @@
 <body>
   <section id="areaConfirmacao">
     <h1>Avaliação Docente</h1>
-    <section id="dadosDocente">
-      <table class="table">
-        <tr>
-          <th>David Sodré</th>
-        </tr>
-        <tr>
-          <td>Programação Web</td>
-          <td>28 Anos</td>
-        </tr>
-        <tr>
-          <td>Interface Humano Computador</td>
-          <td>Desenvolvedor de Sistemas</td>
-        </tr>
-      </table>
-    </section>
-    <section id="votacao">
-      <h3>Abaixo selecione quantas estrelas este professor merece.</h3>
-      <div id="estrelasNaoMarcadas">
-        <img src="img/star.png" alt="">        
-        <img src="img/star.png" alt="">        
-        <img src="img/star.png" alt="">        
-        <img src="img/star.png" alt="">        
-        <img src="img/star.png" alt="">        
-      </div>
-      <div id="estrelasMarcadas">
-        <img src="img/starfull.png" alt="">        
-        <img src="img/starfull.png" alt="">        
-        <img src="img/starfull.png" alt="">        
-        <img src="img/starfull.png" alt="">        
-        <img src="img/starfull.png" alt="">        
-      </div>
-    </section>
-    <section id="textoAvaliacao">
-      <textarea name="" id="" cols="30" rows="10">
-        Descreva sua avaliação!
+    <div id="areaDados" class="">
+      <div id="areaGeral" class="bordas">
+        <section id="dadosDocente" class="bordas margemInferior">
+          <table>
+            <tr>
+              <th>David Sodré</th>
+            </tr>
+            <tr>
+              <td>Programação Web</td>
+              <td>28 Anos</td>
+            </tr>
+            <tr>
+              <td>Interface Humano Computador</td>
+              <td>Desenvolvedor de Sistemas</td>
+            </tr>
+          </table>
+        </section>
+        <section id="votacao" class="centralizado margemInferior">
+          <h3>Abaixo selecione quantas estrelas este professor merece.</h3>
+          <div id="estrelasMarcadas">
+            <img src="img/starfull.png" alt="">
+            <img src="img/starfull.png" alt="">
+            <img src="img/starmidlle.png" alt="">
+            <img src="img/star.png" alt="">
+            <img src="img/star.png" alt="">
+          </div>
+        </section>
+        <section id="textoAvaliacao" class="centralizado bordas margemInferior">
+          <p>Descreva sua avaliação!</p>
+          <p>Comentarios perjorativos serão automaticamente excluidos.</p>
+        </section>
+        <section id="areaBotaoConfirmacao" class="centralizado">
+          <label >
+            <input type="checkbox">
+            Avaliar Anonimamente
+          </label>
+          <div><h1></h1></div><!--  GAMBIARRA  -->
           
-          Comentarios perjorativos serão automaticamente excluidos.
-      </textarea>
-    </section>
+          <a  href="#"><input type="button" class="btn btn-primary" value="Avaliar Docente"></a>
+        </section>
+      </div>
+      <section id="imgDocente">
+        <img id="fotoDocente" class="bordas" src="img/fotos/D0001.PNG" alt="" srcset="">
+      </section>
+    </div>
   </section>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -7,6 +7,77 @@ body {
     background-color: #2b78e4
 }
 
+h1{
+    text-align: center;
+    color: #fff;
+}
+
 img{
     width: 50px;
+}
+
+#areaConfirmacao{
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#areaDados{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    padding: 20px;
+}
+
+#areaGeral{
+    background-color: white;
+    /* border: 1px solid black; */
+    width: 88%;
+    padding: 50px;
+}
+
+#imgDocente{
+    width: 12%;
+    margin-left: 10px;
+    text-align: right;
+    height: 162px;
+}
+
+#fotoDocente{
+    width: 150px;
+    padding: 6px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.bordas{
+    border: 1px solid #000;
+}
+
+.margemInferior{
+    margin-bottom: 20px;
+}
+
+#dadosDocente{
+    padding: 20px;
+}
+
+table{
+    width: 100%;
+    font-size: 20px;
+}
+th{
+    font-size: 30px;
+}
+
+#textoAvaliacao{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+p{
+    opacity: 70%;
 }
