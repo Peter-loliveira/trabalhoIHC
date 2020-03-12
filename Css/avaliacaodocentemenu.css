@@ -138,8 +138,22 @@ td {
 .btn-tamanho {
     width: 80px;
 }
-#btn3, #btn1{
+#btn3,#btn1,#btn5{
 opacity: 0.3;    
 
 }
 
+#texto2 {
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inicioSelect{
+    background-color: rgb(255, 255, 255);
+}
+
+ .inicioUnselect{
+    background-color: #D8D7D7;
+ }

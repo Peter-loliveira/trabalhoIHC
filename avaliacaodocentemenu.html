@@ -9,7 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="Css/avaliacaodocente.css">
+    <link rel="stylesheet" href="Css/avaliacaodocentemenu.css">
 </head>
 
 <body>
@@ -26,30 +26,31 @@
     <section id="areaGeral">
         <div id="areaMenu" class="campos">
             <ul id="menu">
-                <a href="#">
-                    <li class="itensMenu">Início</li>
-                </a>
-                <a href="#">
-                    <li class="itensMenu">Notas</li>
-                </a>
-                <a href="#">
-                    <li class="itensMenu">Calendário</li>
-                </a>
-                <a href="#">
-                    <li class ="itensMenu">Avaliação Docente</li>
-                </a>
-                <a href="#">
-                    <li class="itensMenu">Ajuda</li>
-                </a>
-                <a href="#">
-                    <li class="itensMenu">Configurações</li>
-                </a>
+              <a href="#">
+                <li class="itensMenu inicioUnselect">Início</li>
+              </a>
+              <a href="#">
+                <li class="itensMenu inicioUnselect">Notas</li>
+              </a>
+              <a href="#">
+                <li class="itensMenu inicioUnselect">Calendário</li>
+              </a>
+              <a href="#">
+                <li class="itensMenu inicioSelect">Avaliação Docente</li>
+              </a>
+              <a href="#">
+                <li class="itensMenu inicioUnselect">Ajuda</li>
+              </a>
+              <a href="#">
+                <li class="itensMenu inicioUnselect">Configurações</li>
+              </a>
             </ul>
-        </div>
+          </div>
         <div id="areaComponentes" class="campos">
             <div id="quadrado">
                 <h1 id="instrucao">Instruções:</h1>
                 <p id="texto">Abaixo voçê encontrará uma lista com os seus professores. Pedimos que, ao clicar em Avaliar, seja o mais sincero possível, mas que não use termos ofensivos. Lembre-se que essa avaliação é muito importante para o desenvolvimento do curso.</p>
+                <p id="texto2"> Apos avaliar o docente escolhido, poderá visualizar a parcial de avaliações ou escolher outro docente para avaliar caso possua mais docentes disponiveis.</p>
                 <table id="tabela" class="table table-striped">
                     <tr>
                         <th id="nome">Nome:</th>
@@ -61,21 +62,21 @@
                     <tr>
                         <td>David Sodré</td>
                         <td>Programação Web</td>
-                        <td><button type="button" class="btn btn-primary btn-tamanho">Avaliar</button></td>
-                        <td><button type="button" class="btn btn-primary btn-tamanho">Ver</button></td>
+                        <td><button type="button" id= "btn1" class="btn btn-primary btn-tamanho">Avaliar</button></td>
+                        <td><button type="button" id= "btn" class="btn btn-primary btn-tamanho">Ver</button></td>
                     </tr>
                     <tr>
                         <td>yve West</td>
                         <td>Portugues</td>
-                        <td><button type="button" id= "btn1" class="btn btn-primary btn-tamanho">Avaliar</button></td>
-                        <td><button type="button" id="btn2" class="btn btn-primary btn-tamanho">Ver</button></td>
+                        <td><button type="button" id= "btn3" class="btn btn-primary btn-tamanho">Avaliar</button></td>
+                        <td><button type="button" id="btn4" class="btn btn-primary btn-tamanho">Ver</button></td>
                     </tr>
 
                     <tr>
                         <td>Jefferson Freire</td>
                         <td>Logica de Programação</td>
-                        <td ><button type="button" id= "btn3"class="btn btn-primary btn-tamanho">Avaliar</button></td>
-                        <td ><button type="button" id="btn4" class="btn btn-primary btn-tamanho">Ver</button></td>
+                        <td ><button type="button" id= "btn5"class="btn btn-primary btn-tamanho">Avaliar</button></td>
+                        <td ><button type="button" id="btn6" class="btn btn-primary btn-tamanho">Ver</button></td>
                         
                     </tr>
 
