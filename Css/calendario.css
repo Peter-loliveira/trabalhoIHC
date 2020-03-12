@@ -98,9 +98,14 @@ ul {
     padding: 10px;
 }
 
+/* PETER */
 
-/* peter */
-th{
-    font-size: 20px;
-    background-color: green;
+table{
+    width: 50%;
+}
+tr{
+    font-size: 50px;
+}
+td, tr{
+    border: 1px solid black;
 }
