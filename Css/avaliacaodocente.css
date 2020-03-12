@@ -109,3 +109,14 @@ ul {
 #avaliação {
     color: aliceblue
 }
+
+#texto {
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#instrucao {
+    margin-bottom: 50px;
+}
