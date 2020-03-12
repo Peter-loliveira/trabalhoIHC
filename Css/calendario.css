@@ -104,8 +104,33 @@ table{
     width: 50%;
 }
 tr{
-    font-size: 50px;
+    font-size: 30px;
 }
 td, tr{
     border: 1px solid black;
+}
+
+#menuAtivo{
+    background-color: #eeeaea ;
+}
+
+#quadrado{
+    display: flex;
+    justify-content: space-between;
+}
+
+#areaComponentesdireita{
+    padding-right: 20px;
+}
+#imagemCalendario{
+    width: 550px;
+}
+
+#imagemEventos{
+    width: 450px;
+    margin-top: 30px;
+}
+
+body{
+    width: 1550px;
 }
