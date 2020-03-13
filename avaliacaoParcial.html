@@ -24,13 +24,13 @@
         <label id="titulo">Avaliação Parcial</label>
         <table>
           <tr>
-            <td><img id="fotoProf" src="img/prof.png" alt=""></td>
+            <td><img id="fotoProf" src="img/fotos/prof.png" alt=""></td>
             <td><label id="textoProf">Professor: David Sodré<p>Disciplina: Programação Web</p></label><br>
-              <img id="estrela" src="img/star.png" alt="">
-              <img id="estrela" src="img/star.png" alt="">
-              <img id="estrela" src="img/star.png" alt="">
-              <img id="estrela" src="img/star.png" alt="">
-              <img id="estrela" src="img/favorite.png" alt="">
+              <img class="estrela" src="img/star.png" alt="">
+              <img class="estrela" src="img/star.png" alt="">
+              <img class="estrela" src="img/star.png" alt="">
+              <img class="estrela" src="img/star.png" alt="">
+              <img class="estrela" src="img/favorite.png" alt="">
               <label>24 Avaliações</label>
             </td>
           </tr>
@@ -38,24 +38,81 @@
         <div id="quadradoAvaliacao2">
           <table>
             <tr>
-              <td><img id="fotoAlunos" src="img/brazil-dilma-rousseff.jpg" alt=""></td>
-              <td> <label for="texto" id="caixaTexto">Comentário: O professor sempre tira nossas duvidas.
+              <td>
+                <div class="areaValiacoes">
+                  <div class="alunoMaiEstrelas">
+                    <div>
+                      <img class="fotoAlunos" src="img/fotos/dilma.jpg" alt="">
+                    </div>
+                    <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                    <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                    <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                    <img class="estrelaAvaliacao" src="img/starmidlle.png" alt="">
+                    <img class="estrelaAvaliacao" src="img/favorite.png" alt="">
+                  </div>
+                  <label for="texto" class="caixaTexto">Comentário: O professor sempre tira nossas duvidas.
+                    E sempre deixa as metas em aberto, e se as atingirmos, ele drobra essa meta.
+                    Dilma / 1º Semestre / Desenvolvimento de Sistema. 
+                  </label>
+                </div>
+              </td>
+              <td>
+                <div class="areaValiacoes">
+                  <div class="alunoMaiEstrelas">
+                    <div>
+                      <img class="fotoAlunos" src="img/fotos/anonimo2.jpg" alt="">
+                    </div>
+                    <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                    <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                    <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                    <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                    <img class="estrelaAvaliacao" src="img/star.png" alt="">                    
+                  </div>
+                <label for="texto" class="caixaTexto">Comentário: O professor sempre tira nossas duvidas.
                   E sempre deixa as metas em aberto, e se as atingirmos, ele drobra essa meta.
-                  Dilma / 1º Semestre / Desenvolvimento de Sistema. </label></td>
-              <td><img id="fotoAlunos" src="img/anonimo2.jpg" alt="">
-              <td> <label for="texto" id="caixaTexto">Comentário: O professor sempre tira nossas duvidas.
-                  E sempre deixa as metas em aberto, e se as atingirmos, ele drobra essa meta.
-                  Dilma / 1º Semestre / Desenvolvimento de Sistema. </label></td>
+                  Dilma / 1º Semestre / Desenvolvimento de Sistema. </label>
+                  </div>
+              </td>
             </tr>
             <tr>
-              <td><img id="fotoAlunos" src="img/lula.jpg" alt="">
-              <td> <label for="texto" id="caixaTexto">Comentário: Tira duvidas, consegui entender muito bem, espero
+              <td>
+                <!-- <div class="avaliacoes"> -->
+                  <div class="areaValiacoes">
+                    <div class="alunoMaiEstrelas">
+                      <div>
+                        <img class="fotoAlunos" src="img/fotos/lula.jpg" alt="">
+                      </div>
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                    </div>
+                <label for="texto" class="caixaTexto">Comentário: Tira duvidas, consegui entender muito bem, espero
                   que seja meu professor em outras materias.
-                  Lula / 1º Semestre / Desenvolvimento de Sistema </label></td>
-              <td><img id="fotoAlunos" src="img/gado.jpg" alt="">
-              <td> <label for="texto" id="caixaTexto">Comentário: Professor excelente, sigo o que ele fala sem
+                  Lula / 1º Semestre / Desenvolvimento de Sistema </label>
+                  </div>
+                <!-- </div> -->
+              </td>
+              <td>
+                <!-- <div class="avaliacoes"> -->
+                  <div class="areaValiacoes">
+                    <div class="alunoMaiEstrelas">
+                      <div>
+                        <img class="fotoAlunos" src="img/fotos/gado.jpg" alt="">
+                      </div>
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">
+                      <img class="estrelaAvaliacao" src="img/star.png" alt="">                      
+                    </div>
+                <label for="texto" class="caixaTexto">Comentário: Professor excelente, sigo o que ele fala sem
                   questionar.
-                  Gado / 1º Semestre / Desenvolvimento de Sistema </label></td>
+                  Gado / 1º Semestre / Desenvolvimento de Sistema </label>
+                  </div>
+                <!-- </div> -->
+              </td>
             </tr>
           </table>
 
@@ -66,10 +123,11 @@
 
 
       <!-- Verificar com Vitor a nomeclatura da pagina dele para lincar abaixo -->
-      <a href="avaliacaoDocente.html">
-        <button id="botaoRetonarAvaliacao" class="btn btn-light">Retornar Avaliação do Docente</button>
-      </a>
-
+      <div id="botaoAvaliacao">
+        <a href="avaliacaoDocente.html">
+          <button id="botaoRetonarAvaliacao" class="btn btn-light">Retornar Avaliação do Docente</button>
+        </a>
+      </div>
     </div>
   </section>
 
