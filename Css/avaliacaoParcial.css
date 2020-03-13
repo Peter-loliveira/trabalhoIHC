@@ -6,85 +6,19 @@
 body {
     background-color: #2b78e4
 }
-
-#areaGeral, #areaSuperior{
-    width: 90%;    
-}
-
-#areaSuperior {
-    margin: 0 auto;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo{
-    width: 400px;    
-}
-
-#botaoSair {
-    margin: 20px;
-    width: 60px;
-    height: 40px;
+#titulo{
+    font-size: 30px;
     font-weight: bold;
-    font-size: 15px;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-#botaoSair:hover {
-    background-color: #ff3a3a;
-    color: wheat;
 }
 
 #areaGeral {
     justify-content: space-between;
     display: flex;    
     height: 600px;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 50px;
     border-radius: 5px;
-}
-
-/* #areaComponentes, #ul {
-    border: 1px solid #000000;
-} 
-
-#areaMenu {
-    width: 20%;
-    background-color: aquamarine; 
-    height: 300px;
-    margin-top: 60px;
-    border-right: 100px;
-}   
-
-.itensMenu {
-    background-color: #D8D7D7;
-    height: 50px;
-    padding-top: 5px;
-    padding-left: 10px;
-    font-size: 20px;
-    display: table;
-    border: 1px solid black;
-    width: 100%;
-    color: black;
-}
-.itensMenu:hover {
-    background-color: #eeeaea;
-}*/
-/* 
-a:hover {
-    text-decoration: none;
-}
-a{
-    margin: 0;
-}
-
-ul {
-    list-style: none;
-} */
-
-.textosNegrito {
-    font-weight: bold;
+    width: 90%;   
 }
 
 #areaComponentes {
@@ -95,8 +29,9 @@ ul {
 #quadradoAvaliacao {
     border-style: solid;
     border-width: 1px;
-    margin-top: 50px;
-    width: 1420px;
+    margin-top: 10px;
+    margin: 60px;
+    width: 1200px;
     height: 500px;
     background-color:#58ACFA;
     display: flex;
@@ -104,6 +39,83 @@ ul {
     align-items: center;
 }
 
-#tabelaAvaliacao1 {
+#quadradoAvaliacao2 {
+    border-style: solid;
+    border-width: 1px;
+    margin: 30px;
+    width: 1000px;
+    height: 300px;
+    margin-top: 15px;
+    background-color: #C6E2FF;
+    align-items: center;
+}
+
+#fotoProf{
+    width: 100px;
+    margin-top: 50px;
+    margin: 10px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
     
 }
+
+#fotoAlunos{
+    width: 80px;
+    margin-top: 50px;
+    margin: 15px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+
+#estrelaP{
+    width: 10px;
+    height: 10px;
+
+}
+
+#textoProf{
+    text-align: left;
+    }
+
+#estrela{
+    width: 30px;
+    height: 30px;
+
+}
+
+#caixaTexto{
+    width: 300px;
+    margin-top: 50px;
+    margin: 15px;
+    height: 105px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+
+}
+
+
+#botaoRetonarAvaliacao{
+    margin: 550px;
+    width: 280px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;    
+    background-color: #2b78e4;
+    margin-top: 5px;
+}
+#botaoRetonarAvaliacao:hover {
+    background-color: #ff3a3a;
+    color: white;
+}
+
+
+
