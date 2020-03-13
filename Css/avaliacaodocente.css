@@ -14,7 +14,7 @@ body {
 
 #areaSuperior {
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -43,7 +43,7 @@ body {
     display: flex;
     height: 600px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 5px;
 }
 
@@ -110,15 +110,18 @@ ul {
     color: aliceblue
 }
 
-#texto {
+.texto {
+    font-size: 20px;
     font-style: normal;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: bold;
-    text-align: center;
+    text-align: start;
+    margin-bottom: 2px;
+    padding-left: 50px;
 }
 
 #instrucao {
-    margin-bottom: 50px;
+    /* margin-bottom: 20px; */
 }
 
 #quadrado {
@@ -126,36 +129,62 @@ ul {
 }
 
 #tabela {
-    width: 100%;
+    width: 102%;
+    margin-top: 35px;
+    margin-left: -11px;
+}
+
+th, td {
     border: black 1px solid;
-    margin-top: 100px;
 }
 
 td {
     border: black 1px solid;
+    height: 50px;
+}
+
+th{
+    height: 80px;
+    /* background-color: darkgoldenrod; */
 }
 
 .btn-tamanho {
     width: 80px;
 }
 #btn3, #btn1{
-opacity: 0.3;    
+/* opacity: 0.3;     */
 
 }
+.flechas{
+    text-decoration: none;
+    width: 15px;
+    /* height: 15px; */
+    float:right; 
+    padding-right: 5px ;
+    /* margin-right:0;  */
+    /* margin-left:10px;  */
+    /* margin-bottom:5px;   */
 
-.flecha {
-    background-image: url(flechacimacheia.png)no-repeat left center;
-    text-decoration: none;
-    width: 15px;height: 15px;
-    float:right; margin-right:0; margin-left:10px; margin-bottom:5px;  
 }
-.flechacimabaixo{
-    background-image: url(flechacimabaixocheia.png)no-repeat left center;
+/* .flechas {
+    /* background-image: url(flechacimacheia.png)no-repeat left center; */
+
+/* .flechacimabaixo{
+    /* background-image: url(flechacimabaixocheia.png)no-repeat left center; */
     text-decoration: none;
-    width: 15px;height: 20px;
-    float:right; margin-right:0; margin-left:10px; margin-bottom:5px; 
-}
+    width: 15px;
+    /* height: 20px; */
+    float:right; 
+    margin-right:0; 
+    margin-left:10px; 
+    margin-bottom:5px; 
+} 
+*/
 
 #menuAtivo{
     background-color: #eeeaea ;
+}
+
+#linhaTitulo{
+    background-color: #CCCCCC;
 }
