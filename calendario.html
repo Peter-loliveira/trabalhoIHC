@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
- 
+
 <head>
   <title>Home</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/inicio.css">
+  <link rel="stylesheet" href="Css/calendario.css">
 </head>
- 
+
 <body>
   <header id=areaSuperior>
     <!-- <img class="logo" src="img/sesiDobro.png">
@@ -21,7 +21,7 @@
     <a href="index.html">
       <button id="botaoSair" class="btn btn-light">Sair</button>
     </a>
- 
+
   </header>
   <section id="areaGeral">
     <div id="areaMenu" class="campos">
@@ -33,7 +33,7 @@
           <li class="itensMenu">Notas</li>
         </a>
         <a href="calendario.html">
-          <li class="itensMenu">Calendário</li>
+          <li id="menuAtivo" class="itensMenu">Calendário</li>
         </a>
         <a href="avaliacaodocente.html">
           <li class="itensMenu">Avaliação Docente</li>
@@ -48,42 +48,81 @@
     </div>
     <div id="areaComponentes" class="campos">
       <div id="quadrado">
-        <div>
-          <label id="campoBemVindo" for="camposTextos">Bem Vindo ao Portal do Aluno Sesi Lauro de Freitas</label>
+        <!-- <table id="calendario">
+          <tr>
+            <th id="tituloCalendario">
+              MARÇO 2020
+            </th>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>DOM</td>
+            <td>SEG</td>
+            <td>TER</td>
+            <td>QUA</td>
+            <td>QUI</td>
+            <td>SEX</td>
+            <td>SAB</td>
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+            <td>04</td>
+            <td>05</td>
+            <td>06</td>
+            <td>07</td>
+          </tr>
+          <tr>
+            <td>08</td>
+            <td>09</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table> -->
+        <div id="areaComponentesEsquerda">
+          <img id="imagemCalendario" src="img/calendario.PNG" alt="" srcset="">
         </div>
-        <div>
-          <label id="campoCurso" for="camposTextos">Curso: Tecnico em Desenvolvimento de Sistemas</label>
-        </div>
-        <div>
-          <label id="campoMatricula" for="camposTextos">Matricula: 0999.777.863</label>
-        </div>
-        <div>
-          <label id="campoUsuario" for="camposTextos">Usuario: Aluno Teste | Unidade: Sesi  Lauro de Freitas/Ba</label>
-        </div>
-        <div id="divQuadro">
-        <div>
-          <label id="campoQuadroDeAvisos" class="iniciobold" for="camposTextos">Quadro de Avisos:</label>
-        </div>
-        <div>
-          <label id="campoPrezado"  class="iniciobold" for="camposTextos">Prezado aluno,
-          </label>
-        </div>
-        <div>
-          <label id="campoEstamos"  class="iniciobold" for="camposTextos">Estamos em processo de avaliação dos docentes.</label>
-        </div>
-        <div>
-          <label id="campoNaoDeixe"  class="iniciobold" for="camposTextos">Não deixe de avaliar o corpo docente de seu curso, sua opnião é muito importante para o SESI manter a boa qualidade de ensino.</label>
-        </div>
-        <div>
-          <label id="campoObs"  class="iniciobold" for="campoTextos">Obs: Você poderá avaliar e fazer comentarios de forma anonima marcando a opção para enviar comentarios anominos.</label>
-        </div>
-        <div id="divRedirecionar">
-          <a id="campoRedirecionar" href="#">Clique aqui e seja Redirecionado</a>
-        </div>
-        </div>
+        <div id="areaComponentesdireita">
+          <h2>Atividades do dia</h2>
+          <img id="imagemEventos" src="img/tiposEventos.PNG" alt="" srcset="">
+        </div>        
       </div>
+    </div>
   </section>
- 
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -96,6 +135,5 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 </body>
- 
-</html>
 
+</html>
