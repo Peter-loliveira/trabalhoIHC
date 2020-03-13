@@ -51,7 +51,7 @@ body {
  
 #areaMenu {
     width: 20%;
-    /* background-color: aquamarine; */
+    background-color: #ddd;
     height: 300px;
     margin-top: 60px;
     border-right: 100px;
