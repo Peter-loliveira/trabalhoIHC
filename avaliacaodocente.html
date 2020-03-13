@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/avaliacaodocente.css">
+</head>
+
+<body>
+    <header id=areaSuperior>
+        <!-- <img class="logo" src="img/sesiDobro.png">
+    <img class="logo" src="img/logo.png"> -->
+        <img class="logo" src="img/logoG.png">
+        <label id="avaliação"><h1>Avaliação Docente</h1></label>
+        <a href="index.html">
+            <button id="botaoSair" class="btn btn-light">Sair</button>
+        </a>
+
+    </header>
+    <section id="areaGeral">
+        <div id="areaMenu" class="campos">
+            <ul id="menu">
+                <a href="inicio.html">
+                    <li class="itensMenu">Início</li>
+                </a>
+                <a href="#">
+                    <li class="itensMenu">Notas</li>
+                </a>
+                <a href="calendario.html">
+                    <li class="itensMenu">Calendário</li>
+                </a>
+                <a href="avaliacaodocente.html">
+                    <li id="menuAtivo" class ="itensMenu">Avaliação Docente</li>
+                </a>
+                <a href="#">
+                    <li class="itensMenu">Ajuda</li>
+                </a>
+                <a href="#">
+                    <li class="itensMenu">Configurações</li>
+                </a>
+            </ul>
+        </div>
+        <div id="areaComponentes" class="campos">
+            <div id="quadrado">
+                <h1 id="instrucao">Instruções:</h1>
+                <p id="texto">Abaixo voçê encontrará uma lista com os seus professores. Pedimos que, ao clicar em Avaliar, seja o mais sincero possível, mas que não use termos ofensivos. Lembre-se que essa avaliação é muito importante para o desenvolvimento do curso.</p>
+                <table id="tabela" class="table table-striped">
+                    <tr>
+                        <th id="nome">Nome: <img class="flecha" src="img/flechacimacheia.png"></th>
+                        <th>Matéria:<img class="flechacimabaixo" src="img/flechacimabaixocheia.png"></th>
+                        <th>avaliação:</th>
+                        <th>Parcial:</th>
+                    </tr>
+
+                    <tr>
+                        <td>David Sodré</td>
+                        <td>Programação Web</td>
+                        <td>
+                            <a href="confirmacaovoto.html"><button type="button" class="btn btn-primary btn-tamanho">Avaliar</button></a>
+                            
+                        </td>
+                        <td><button type="button" class="btn btn-primary btn-tamanho">Ver</button></td>
+                    </tr>
+                    <tr>
+                        <td>yve West</td>
+                        <td>Portugues</td>
+                        <td><button type="button" id= "btn1" class="btn btn-primary btn-tamanho" disabled>Avaliar</button></td>
+                        <td><button type="button" id="btn2" class="btn btn-primary btn-tamanho">Ver</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Jefferson Freire</td>
+                        <td>Logica de Programação</td>
+                        <td ><button type="button" id= "btn3"class="btn btn-primary btn-tamanho" disabled>Avaliar</button></td>
+                        <td ><button type="button" id="btn4" class="btn btn-primary btn-tamanho">Ver</button></td>
+                        
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
